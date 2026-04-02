@@ -1,16 +1,54 @@
-# React + Vite
+# Weather App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean, modern weather app built with React. Search any city in the world to get live weather updates including temperature, humidity, wind speed, and conditions.
 
-Currently, two official plugins are available:
+## Screenshots
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+### Home Screen
+![Home Screen](screenshots/HOME.png)
 
-## React Compiler
+### Weather Result
+![Weather Result](screenshots/SEARCH1.png)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Weather Result
+![Weather Result](screenshots/SEARCH2.png)
 
-## Expanding the ESLint configuration
+### Weather Result
+![Weather Result](screenshots/INVALID SEARCH.png)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Live Features
+- Search any city worldwide
+- Displays current temperature in °C
+- Shows humidity, wind speed & feels like temperature
+- Weather condition icons
+- Clean bright & modern UI
+- Error handling for invalid cities
+
+## Built With
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [OpenWeatherMap API](https://openweathermap.org/api)
+
+##  How to Run Locally
+
+1. Clone the repo
+```bash
+   git clone https://github.com/YOUR_USERNAME/weather-app.git
+```
+2. Navigate into the project
+```bash
+   cd weather-app
+```
+3. Install dependencies
+```bash
+   npm install
+```
+4. Add your API key in `src/App.jsx`
+```js
+   const API_KEY = 'your_api_key_here';
+```
+5. Start the app
+```bash
+   npm run dev
+```
+
