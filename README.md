@@ -5,16 +5,16 @@ A clean, modern weather app built with React. Search any city in the world to ge
 ## Screenshots
 
 ### Home Screen
-![Home Screen](screenshots/HOME.png)
+![Home Screen](screenshots/home.png)
 
 ### Weather Result
-![Weather Result](screenshots/SEARCH1.png)
+![Weather Result](screenshots/search1.png)
 
 ### Weather Result
-![Weather Result](screenshots/SEARCH2.png)
+![Weather Result](screenshots/search2.png)
 
 ### Weather Result
-![Weather Result](screenshots/INVALID SEARCH.png)
+![Weather Result](screenshots/invalid-search.png)
 
 ## Live Features
 - Search any city worldwide
